@@ -1,6 +1,6 @@
-/node_modules
-*.log
-/test
-Gruntfile.js
-.jshintrc
+__mocks__
+__tests__
+node_modules
+.coveralls.yml
 .npmignore
+*.log

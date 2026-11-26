@@ -1,8 +1,5 @@
 language: node_js
 node_js:
-  - 'node'
-  - '7'
-  - '6'
-  - '5.11'
+  - 14
 after_success:
-  - npm run coveralls
+  - npm run travis
